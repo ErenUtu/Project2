@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tinos', serif;
+    
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4,9,30,0.7)),url(./img/ptoject1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 8%;
+    display: flex;
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #415f8b;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.nav-links{
+    margin-left: 40%;}
+    .text-box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box h1{
+        font-size: 62px;
+    }
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+/* contact bagina*/
+
+.hero{
+    margin-top: 100PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color:  #fff;
+    cursor: text;
+}
+button{
+    width: 10%;
+    padding: 10px 0;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+}
+form div ::placeholder{
+    color: #fff;
+}
+table,th, td{  
+    border: 1px solid #fff;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+table tr{
+    color: #fff;
+    font-size: 25px;
+}
+
+/* footer */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: open sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px; 
+}
+.socials{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.schoolfooter{
+    margin-top: 900px;
+}
+.snake-hero{
+    margin-top: 100px;
+    background-color: transparent;
+    color: #fff;   
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-snake{
+    display: flex;
+    margin: 10vh;
+  }
+
+.snake-hero button{
+    border-radius: 10px;
+    
+}
+.snake-hero button a{
+    color: #fff;
+}
+.howto-text{
+    text-align: center;
+    color: #fff;
+
+}
+
+.htp{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+.htp h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
+.htp h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.htp p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.my-img img{
+    margin-top: 100px;
+    margin-left: 43%;
+    margin-right: 30%;
+    position: relative; 
+    width: 250px; 
+    height: 250px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.btn-nouras{
+    border-radius: 50px;
+    margin-top: 100px;
+    background-color: transparent;
+    color: #fff;   
+    width: 100%;
+    text-align: center;
+
+}
+.btn-nouras button{
+    border-radius: 50px;
+    color: #fff ;
+}
+.ik-ben{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+.ik-ben h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.ik-ben p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}

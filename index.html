@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <div class="header">
+        <nav>
+            <div><a href="index.html"><h1 class="logo">Webgame</h1></a></div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUS.html">About Us</a>
+                        <ul class="dropdown">
+                            <li><a href="nouras.html">Nouras</a></li>
+                            <li><a href="tyriq.html">tyriq</a></li>
+                            <li><a href="eren.html">Eren</a></li>
+                            <li><a href="gedui.html">Gedui</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="ttt.html">Tic Tac Toe</a></li>
+                    <li><a href="snake.html">Snake</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <div class="text-box">
+        <div class="text-container">
+            <h1>Welcome <span class="auto-input"></span></h1>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["to Webgame website!", ".This is our first  gaming website!"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    </section>   
+</body>
+</html>
